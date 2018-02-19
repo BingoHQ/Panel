@@ -9,7 +9,7 @@
 
                             span(v-if="purse.purse == 1 || purse.purse == 99")
                                 span.header-title {{ purse.name }}
-                                span.zpid-box.pull-left ZP.{{user.public_id}}.{{ purse.purse }}
+                                span.zpid-box.pull-left BO.{{user.public_id}}.{{ purse.purse }}
 
                             span(v-else)
                                 span.header-title.hand(v-if="!isEditingPurseName" @click="toggleEditPurse($event)") {{ purse.name }}

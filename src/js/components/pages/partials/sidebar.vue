@@ -42,10 +42,16 @@
                         titleTransKey: 'panel.home',
                         accessLevel: [-1, 0, 1, 2, 3]
                     },
-                    webservice: {
+//                    webservice: {
+//                        link: 'webservice.index',
+//                        icon: 'icon-zp-web-service',
+//                        titleTransKey: 'panel.webservice',
+//                        accessLevel: [2, 3]
+//                    },
+                    device: {
                         link: 'webservice.index',
                         icon: 'icon-zp-web-service',
-                        titleTransKey: 'panel.webservice',
+                        titleTransKey: 'panel.device',
                         accessLevel: [2, 3]
                     },
                     card: {
@@ -53,18 +59,6 @@
                         icon: 'icon-zp-card',
                         titleTransKey: 'panel.card',
                         accessLevel: [0, 1, 2, 3]
-                    },
-                    easypay: {
-                        link: 'easypay.index',
-                        icon: 'icon-zp-easy-pay',
-                        titleTransKey: 'panel.easypay',
-                        accessLevel: [0, 1, 2, 3]
-                    },
-                    coupon: {
-                        link: 'coupon.index',
-                        icon: 'icon-zp-copouns',
-                        titleTransKey: 'panel.coupon',
-                        accessLevel: [2, 3]
                     },
                     ticket: {
                         link: 'ticket.index',

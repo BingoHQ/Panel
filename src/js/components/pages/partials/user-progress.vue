@@ -22,7 +22,7 @@
             g(filter="url(#group-3-c)" transform="translate(9 68)")
                 rect( width="74" height="21" :fill="levelColor()" rx="10.5")
                 text( fill="#2A2A2A" font-family="IRANSans-Medium, IRANSans" font-size="10" font-weight="400")
-                    tspan( x="35" y="13" text-anchor="middle") ZP.{{user.public_id}}
+                    tspan( x="35" y="13" text-anchor="middle") BO.{{user.public_id}}
 </template>
 
 

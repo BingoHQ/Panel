@@ -99,60 +99,13 @@ export default new VueRouter({
                                 accessLevel: ['basic', 'silver', 'gold']
                             }
                         },
-                        {
-                            path: 'easypay/:visiblePersonalLink?',
-                            name: 'easypay.index',
-                            component: require('./components/pages/easypay/index.vue'),
-                            meta: {
-                                accessLevel: ['basic', 'silver', 'gold']
-                            }
-                        },
-                        {
-                            path: 'easypay/create',
-                            name: 'easypay.create',
-                            component: require('./components/pages/easypay/partials/create.vue'),
-                            meta: {
-                                accessLevel: ['basic', 'silver', 'gold']
-                            }
-                        },
-                        {
-                            path: 'easypay/edit/:public_id',
-                            name: 'easypay.edit',
-                            component: require('./components/pages/easypay/partials/edit.vue'),
-                            meta: {
-                                accessLevel: ['basic', 'silver', 'gold']
-                            }
-                        },
+
                         {
                             path: 'user/verifyNotification/:id',
                             name: 'user.verifyNotification',
                             component: require('./components/pages/user/verfiy-telegram.vue'),
                             meta: {
                                 accessLevel: ['basic', 'silver', 'gold']
-                            }
-                        },
-                        {
-                            path: 'coupon',
-                            name: 'coupon.index',
-                            component: require('./components/pages/coupon/index.vue'),
-                            meta: {
-                                accessLevel: ['silver', 'gold']
-                            }
-                        },
-                        {
-                            path: 'coupon/create',
-                            name: 'coupon.create',
-                            component: require('./components/pages/coupon/partials/create.vue'),
-                            meta: {
-                                accessLevel: ['silver', 'gold']
-                            }
-                        },
-                        {
-                            path: 'coupon/edit/:entity_id',
-                            name: 'coupon.edit',
-                            component: require('./components/pages/coupon/partials/edit.vue'),
-                            meta: {
-                                accessLevel: ['silver', 'gold']
                             }
                         },
                         {

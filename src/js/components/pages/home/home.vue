@@ -17,17 +17,17 @@
                     i.btn-icon.withdraw
                     span.btn-label تسویه حساب
 
-                router-link.btn-gradient-radius(v-if="userHasAccess([1, 2, 3]) >= 0" v-ripple="" tag="button" v-bind:to="{ name: 'requestMoney.index'}")
-                    i.btn-icon.request-money
-                    span.btn-label {{ $i18n.t('common.dangiDongi') }}
+                <!--router-link.btn-gradient-radius(v-if="userHasAccess([1, 2, 3]) >= 0" v-ripple="" tag="button" v-bind:to="{ name: 'requestMoney.index'}")-->
+                    <!--i.btn-icon.request-money-->
+                    <!--span.btn-label {{ $i18n.t('common.dangiDongi') }}-->
 
-                button.btn-gradient-radius(v-if="userHasAccess([1, 2, 3]) >= 0" v-ripple="" @click="visibleAddFund = !visibleAddFund")
-                    i.btn-icon.add-fund
-                    span.btn-label {{ $i18n.t('purse.addFund') }}
+                <!--button.btn-gradient-radius(v-if="userHasAccess([1, 2, 3]) >= 0" v-ripple="" @click="visibleAddFund = !visibleAddFund")-->
+                    <!--i.btn-icon.add-fund-->
+                    <!--span.btn-label {{ $i18n.t('purse.addFund') }}-->
 
-                button.btn-gradient-radius(v-if="userHasAccess([2, 3]) >= 0" v-ripple="" @click="visiblePtop = !visiblePtop")
-                    i.btn-icon.ptop
-                    span.btn-label {{ $i18n.t('purse.moneyTransfer') }}
+                <!--button.btn-gradient-radius(v-if="userHasAccess([2, 3]) >= 0" v-ripple="" @click="visiblePtop = !visiblePtop")-->
+                    <!--i.btn-icon.ptop-->
+                    <!--span.btn-label {{ $i18n.t('purse.moneyTransfer') }}-->
 
                 button.btn-gradient-radius.zarin-card(v-if="!haveZarinCard && this.$store.state.auth.user.level >=2" v-ripple="" @click="visibleRequestZarinCard = !visibleRequestZarinCard")
                     i.btn-icon
