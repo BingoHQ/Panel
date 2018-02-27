@@ -28,13 +28,13 @@ new Vue({
     router: require('./router').default,
     data() {
         return {
-            baseUrl: 'http://api.test', // local: panel base
-            //baseUrl: 'https://my.zarinpal.com', // production: panel base
+            //baseUrl: 'http://api.test', // local: panel base
+            baseUrl: 'https://my.bingo.ir', // production: panel base
         }
     },
     http: {
-        root: 'http://api.test/rest/v3',// local: panel base
-        //root: 'https://my.zarinpal.com/rest/v3',// production: panel base
+        //root: 'http://api.test/rest/v3',// local: panel base
+        root: 'https://my.bingo.ir/rest/v3',// production: panel base
     },
     created() {
         //init active tab on load
