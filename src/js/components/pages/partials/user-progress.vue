@@ -16,7 +16,7 @@
 
             g( transform="translate(14 14)")
                 circle(fill="url(#image)" cx="30.25" cy="30.25" r="30.25")
-            circle( cx="73" cy="17" r="15" fill="#FFDA61")
+            circle( cx="73" cy="17" r="15" fill="#1eb8d2")
             text( fill="#2A2A2A" font-family="IRANSans-Bold, IRANSans" font-size="12" font-weight="bold")
                 tspan( x="73" y="21" text-anchor="middle") {{numberToPersian(user.user_progress.points)}}%
             g(filter="url(#group-3-c)" transform="translate(9 68)")
@@ -63,7 +63,7 @@
                         return '#D5D9DB';
                         break;
                     case 3:
-                        return '#FFDA47';
+                        return '#1eb8d2';
                         break;
                     default:
                         return '#FFFFFF';
